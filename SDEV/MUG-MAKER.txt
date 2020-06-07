@@ -1,0 +1,26 @@
+IPO: MUG-MAKER
+
+
+DECLARE UsrMessage	as string
+DECLARE UserName        as string
+
+Write "Thank you for choosing MUG-MAKER! Please enter your name below."
+
+We need a counter loop to match how many mugs the user wants to have made, and each time through the loop we ask the user to enter the string to be etched on the mug. String must be shorter than or equal to 15 characters.
+Use counter controlled loop to match the mugs with the message to be etched on each one.
+IF "UsrMessage" == exit
+Then
+leave loop
+Do While
+While End While
+
+ 1  Declare Count As Integer
+ 2  Declare UsrMessage As String
+ 3  Set Count = 1
+ 4  Set UsrMessage = " "
+ 5  Write "Enter the message to be etched on mug 1."
+ 6  While Count < 4
+ 7    Input UsrMessage
+ 8    Write Count + "Your Message" + Activity
+ 9    Set Count = Count + 1
+10  End While

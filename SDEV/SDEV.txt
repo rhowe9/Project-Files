@@ -1,0 +1,132 @@
+https://bookshelf.vitalsource.com/#/user/signin
+
+
+SET YOUR VARIABLES TO 0!!
+
+SDEV ONLINE BOOK
+https://bookshelf.vitalsource.com/books/9780133750409
+
+HOWE WK_ HW_ -IPO
+HOWE WK_ HW_ -PC
+Don't forget to read this week! Homework and Quizzes due at 1pm.
+ 
+COMMANDS
+Input
+Set
+Declare
+Write
+if-then-else
+Call
+Case
+Select Case
+
+Assignment Operator Symbol =
+Comparison Operator Symbol ==
+
+TERMS
+Function: A predefined formula that performs calculations using specific values in a particular order.
+RELATIONAL OPERATORS
+== same as
+!=
+
+
+Test Condition: contains a variable, relational operator, and another variable/number.
+
+PDC=
+Analyze
+Design
+Code
+Test    (Desk Check)
+Revise
+
+Don't forget to read this week! Homework and Quizzes due at 1pm. 
+
+DEFENSIVE PROGRAMMING
+Defensive programming involves the inclusion of statements within a program to check for improper data during execution. The program segment that catches and reports an error of this sort is called an error trap. In this section, we will show how to prevent two common “illegal operations”—division by 0 and taking the square root of a negative number.
+
+THE THREE CONTROL STRUCTURES
+
+CONTROL STRUCTURES
+Sequential Structures (Series of consecutive statements executed in order)
+Selection Structures (single, dual, multiple)
+Loop Structures
+
+Selection  (if-then) (if-then-else) (if-then-if) (case)
+A single-alternative (or If-Then ) structure contains only a single block of statements. If the test condition is true, the statements are executed. If the test condition is false, the statements are skipped.
+
+A dual-alternative (or If-Then-Else ) structure contains two blocks of statements. If the test condition is true, the first block is executed and the program skips over the second block. If the first condition is false, the first block of statements is skipped and the second block is executed.
+
+A multiple-alternative (NESTED IF, if-then-else-if) (case) structure contains more than two blocks of statements. The program is written so that when the test condition is met, the block of statements that goes with that condition is executed and all the other blocks are skipped.
+
+RELATIONAL OPERATORS
+Let Number1 = 3, Number2 = −1, Number3 = 3, and Number4 = 26. Then, all of the following expressions are true:
+
+    Number1 != Number2
+
+    Number2 < Number1
+
+    Number3 == Number1
+
+    Number2 < Number4
+
+    Number4 >= Number1
+
+    Number3 <= Number1
+What Happened?
+
+    To see that the conditions in (a) and (b) are true, substitute 3 for Number1 and −1 for Number2.
+
+    In (c), since Number3 has the value of 3 and Number1 has the value of 3, these two variables are the same.
+
+    In (d) it is true that the value of Number2 (−1) is less than 26, the value of Number4.
+
+    Both (e) and (f ) are true. Number4 has the value of 26, which is definitely greater than Number1 (3). The relational operator, >=, asks, “is the value of Number4 greater than or equal to the value of Number1?” It is true if either Number4 is greater than Number1 or if Number4 is the same as Number1. Example (f ) illustrates this; this condition is also true since Number3 and Number1 have the same value.
+
+LOGICAL OPERATORS
+AND, NOT, and OR
+AND combines two conditions, and both conditions must be true before the program can continue.
+OR allows the program to execure if EITHER condition is true.
+NOT can only be used in one simple condition. Cannot be used to compare two things.
+
+
+Write " I want to add……………………………...Enter 0”
+   Write " I want to subtract…………………………Enter 1”    
+   Write "          Selection  "
+
+Write "Please enter the first number.”
+	Input FirstNumber
+     Write “Please input the second number.”
+	Input SecondNumber
+	Set Answer = FirstNumber + SecondNumber
+
+
+Prisoner in the loop, cannot enter the loop.
+Infinite loop, cannot get out.
+
+
+RAPTOR WINDOW MODIFICATION NOTES
+
+Get_Font_Height
+variable <- Get_Font_Height
+ 
+Get_Font_Height is a function that returns how many pixels tall is each letter displayed by Display_Text.
+ 
+Note:  A graphics window must be open when Get_Font_Height is called or a run-time error will occur.
+ 
+Example:
+ 
+ 
+ Spacing in Raptor Text Boxes
+ 
+As pointed out in Names:  Rules and Suggestions, spaces are not allowed in the middle of a name.  However, spaces are allowed between different elements the user types into a text box.  Often, adding spaces can make the program more readable.  For example, spaces can be added between arguments in a procedure call:
+ 
+Display_Text(100,100,"Score: "+Score,Blue)  
+vs.  
+Display_Text(100, 100, "Score: " + Score, Blue)
+RaptorGraph Overview
+RaptorGraph lets the programmer output graphic images to a window.  In addition, it provides functionality to interact with the user via the mouse and via individual keystrokes on the keyboard.
+ 
+RaptorGraph Coordinates
+ 
+The program opens a RaptorGraph window using the Open_Graph_Window call, in which the size of the window is specified.  A successfully opened window appears with a white background.  RaptorGraph drawing routines rely on a standard coordinate system, in which the origin is at the lower-left hand corner.  Actually, the bottom leftmost
+
